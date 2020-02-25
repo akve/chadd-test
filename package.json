@@ -14,8 +14,7 @@
   "dependencies": {
     "aws-sdk": "^2.618.0",
     "btoa": "^1.2.1",
-    "node-fetch": "^2.6.0",
-    "serverless-offline": "^5.12.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -27,7 +26,8 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.18.3",
-    "serverless-dotenv-plugin": "^2.3.2"
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^5.12.1"
   },
   "resolutions": {
     "serverless-dynamodb-local/dynamodb-localhost": "0.0.7",
