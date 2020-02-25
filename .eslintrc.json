@@ -1,0 +1,51 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "legacyDecorators": true
+        }
+    },
+    "rules": {
+        "arrow-parens": [ "warn", "as-needed" ],
+        "comma-dangle": "off",
+        "max-len": ["warn", { "ignoreComments": true }],
+        "class-methods-use-this": "off",
+        "indent": [ "warn", 2, { "SwitchCase": 1 } ],
+        "no-confusing-arrow": "off",
+        "no-await-in-loop": "off",
+        "no-mixed-operators": "off",
+        "no-nested-ternary": "off",
+        "no-param-reassign": "off",
+        "no-plusplus": "off",
+        "no-shadow": "off",
+        "no-console": "off",
+        "no-underscore-dangle": "off",
+        "function-paren-newline": "off",
+        "arrow-body-style": "off",
+        "padded-blocks": "off",
+        "camelcase": "off",
+        "no-unused-vars": "warn",
+        "no-empty": "warn",
+        "import/order": [ "warn", { "newlines-between": "always" } ],
+        "import/no-extraneous-dependencies": "off",
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "jsx-a11y/anchor-is-valid":"off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/label-has-for": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-indent": [ "warn", 2 ],
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-unescaped-entities": "off",
+        "react/prop-types": "off",
+        "prefer-destructuring": "off"
+    }
+}
